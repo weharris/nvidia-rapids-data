@@ -1,12 +1,16 @@
 # nvidia-rapids-data
 
+## Added small versions of files in /data directory
+
 ## Setup for Saturn Cloud
 
 https://saturncloud.io/
 
-1) Create a resource (RAPIDS (Python))
+0) Create a resource (RAPIDS (Python))
 
-2) `conda install git`
+1) Start the Jupyter Server; when running hit the Jupyter Lab button
+
+2) Launch a terminal; take responsibility for your working directory; then `conda install git`
 
 3) `git clone https://github.com/weharris/nvidia-rapids-data`
 
@@ -14,11 +18,3 @@ https://saturncloud.io/
 
 5) make a directory called `data`
 
-
-## Data
-
-1) `conda install gdown`
-
-2) `!gdown https://drive.google.com/file/d/1_mdrn5VjMjalUQk-eVnIC3yvyh_XZDef -O 'data.zip'`
-
-3) 
